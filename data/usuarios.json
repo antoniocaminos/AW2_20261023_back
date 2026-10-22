@@ -1,0 +1,22 @@
+[
+  {
+    "id": 2,
+    "nombre": "Ana Martínez",
+    "edad": 32,
+    "ocupacion": "Arquitecta",
+    "ciudad_natal": "Buenos Aires, Argentina",
+    "direccion": "Av. Corrientes 1234, Piso 5, CABA",
+    "email": "ana.martinez@email.com",
+    "pass": "$2b$10$2SiCmoyS6vC8GsQHZb0efOBICLxNgr3zzIagjrB1NnWNmrEgBNwvm"
+  },
+  {
+    "id": 3,
+    "nombre": "Brie Larson",
+    "edad": 30,
+    "ocupacion": "Marvel",
+    "ciudad_natal": "Indiana",
+    "direccion": "Space 123",
+    "email": "brielarson@marvel.com",
+    "pass": "$2b$10$3RkX5mlleRgkDNaT0R9igesMlOacir4bFLu/xF.A1./zKAEwyXUCC"
+  }
+]
