@@ -10,8 +10,8 @@ const migrarPasswords = async () => {
     
     for (const usuario of usuarios) {
       // Si la pass no empieza con el formato de bcrypt, está en texto plano
-      if (usuario.pass && !usuario.pass.startsWith('$2')) {
-        usuario.pass = await bcrypt.hash(usuario.pass, 10);
+      if (usuario.pass && !usuario.pass.startsWith('$2')) {//$2 es el formato de bcryptjs
+        usuario.pass = await bcrypt.hash(usuario.pass, 10);//usuario.pass es la contraseña en texto plano. 10 es el número de rondas de salting (puedes ajustarlo según tus necesidades)
         modificados++;
       }
     }

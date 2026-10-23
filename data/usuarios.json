@@ -18,5 +18,15 @@
     "direccion": "Space 123",
     "email": "brielarson@marvel.com",
     "pass": "$2b$10$3RkX5mlleRgkDNaT0R9igesMlOacir4bFLu/xF.A1./zKAEwyXUCC"
+  },
+  {
+    "id": 4,
+    "nombre": "Steve Rogers",
+    "edad": 110,
+    "ocupacion": "militar",
+    "ciudad_natal": "queens",
+    "direccion": "su casa",
+    "email": "steve@gmail.com",
+    "pass": "$2b$10$jDQHFpyTd7rJm1uFSsfAHezDpy4riP6z/5IQKBlzQDvdR7GjSkJAW"
   }
 ]
